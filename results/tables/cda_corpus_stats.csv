@@ -1,0 +1,9 @@
+corpus,emotion,sentences,with_male_term,with_female_term
+original,anger,2159,205,176
+original,fear,1937,151,124
+original,joy,5362,393,330
+original,sadness,4666,375,314
+cda,anger,2507,381,381
+cda,fear,2197,275,275
+cda,joy,6035,723,723
+cda,sadness,5294,689,689

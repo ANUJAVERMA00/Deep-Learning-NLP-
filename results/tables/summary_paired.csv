@@ -1,0 +1,3 @@
+domain,pairs,mean gap baseline,mean gap CDA,relative change,pairs with smaller gap under CDA,Wilcoxon p (paired over pairs)
+gender,1400,0.00625,0.00604,-3.4%,82.1%,1.33e-68
+race,2800,0.01249,0.01234,-1.2%,74.0%,9.64e-82

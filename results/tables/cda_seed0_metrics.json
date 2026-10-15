@@ -1,0 +1,44 @@
+{
+  "run_name": "cda_seed0",
+  "seed": 0,
+  "model_name": "distilbert-base-uncased",
+  "train_size": 16033,
+  "epochs": 4,
+  "lr": 2e-05,
+  "best_val_macro_f1": 0.9622638866146764,
+  "test_accuracy": 0.9605633802816902,
+  "test_macro_f1": 0.9490124715339163,
+  "test_f1_per_class": {
+    "anger": 0.9192100538599641,
+    "fear": 0.9288888888888889,
+    "joy": 0.9877433309300648,
+    "sadness": 0.9602076124567474
+  },
+  "train_minutes": 14.217244080702464,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.47614734736920533,
+      "val_acc": 0.95807007466973,
+      "val_macro_f1": 0.946931215159857
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.09055599552093155,
+      "val_acc": 0.9643882825962091,
+      "val_macro_f1": 0.9513188492136179
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.050816492873487024,
+      "val_acc": 0.9712808730614589,
+      "val_macro_f1": 0.961533478646665
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.030570035680675827,
+      "val_acc": 0.9718552556002298,
+      "val_macro_f1": 0.9622638866146764
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+domain,condition,seeds,mean avg.Δ over emotions,lowest DP,change vs baseline,beyond seed noise?
+gender,Baseline,3,0.00625 ± 0.00050,0.975 ± 0.015,,
+gender,+ CDA,3,0.00604 ± 0.00057,0.989 ± 0.003,-0.00021 (-3.4%),no (inconclusive)
+race,Baseline,3,0.01249 ± 0.00178,0.978 ± 0.017,,
+race,+ CDA,3,0.01234 ± 0.00242,0.984 ± 0.005,-0.00015 (-1.2%),no (inconclusive)

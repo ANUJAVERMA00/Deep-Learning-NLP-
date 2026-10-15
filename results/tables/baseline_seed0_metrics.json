@@ -1,0 +1,44 @@
+{
+  "run_name": "baseline_seed0",
+  "seed": 0,
+  "model_name": "distilbert-base-uncased",
+  "train_size": 14124,
+  "epochs": 4,
+  "lr": 2e-05,
+  "best_val_macro_f1": 0.9544825107289706,
+  "test_accuracy": 0.967887323943662,
+  "test_macro_f1": 0.9591251803132467,
+  "test_f1_per_class": {
+    "anger": 0.9298892988929889,
+    "fear": 0.9503239740820735,
+    "joy": 0.9892163910855499,
+    "sadness": 0.9670710571923743
+  },
+  "train_minutes": 12.581899750232697,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.5154520907350795,
+      "val_acc": 0.9534750143595635,
+      "val_macro_f1": 0.940775209127785
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.10267563703432005,
+      "val_acc": 0.9557725445146468,
+      "val_macro_f1": 0.941832665699275
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.058452984064762646,
+      "val_acc": 0.9649626651349799,
+      "val_macro_f1": 0.9544825107289706
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.0389282530480764,
+      "val_acc": 0.9638139000574383,
+      "val_macro_f1": 0.9534811864511054
+    }
+  ]
+}
